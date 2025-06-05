@@ -2,7 +2,7 @@ import {Header, StatsCard, TripCard} from "../../../components";
 import {getAllUsers, getUser} from "~/appwrite/auth";
 import type { Route } from './+types/dashboard';
 import {getTripsByTravelStyle, getUserGrowthPerDay, getUsersAndTripsStats} from "~/appwrite/dashboard";
-import {getAllTrips} from "~/appwrite/trips";
+import {getAllTrips} from "~/appwrite/trips"; 
 import {parseTripData} from "~/lib/utils";
 import {
     Category,
